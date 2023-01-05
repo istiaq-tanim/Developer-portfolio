@@ -17,8 +17,7 @@
   border-radius: 5px;
 }
 
-section
-{
+section {
   margin-top: 130px;
 }
 /* Header and Navigation Style */
@@ -143,3 +142,43 @@ main {
 }
 
 /* Resume Styles */
+
+.resume-content {
+  display: flex;
+  gap: 24px;
+}
+.resume-title
+{
+  font-weight: 700;
+ font-size: 30px;
+ color:  #474747;
+}
+.resume-item
+{
+  margin: 20px 0;
+
+}
+.resume .title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #181818;
+}
+.resume .subtitle
+{
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+  margin-top: 10px;
+}
+
+.resume .description 
+{
+  color: #757575;
+  margin-top: 20px;
+}
+
+.resume-btn
+{
+  margin-top: 30px;
+  text-align: center;
+}
