@@ -15,6 +15,7 @@
   font-weight: 600;
   font-size: 20px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 section {
@@ -181,4 +182,33 @@ main {
 {
   margin-top: 30px;
   text-align: center;
+}
+.contact
+{
+  display: flex;
+  gap: 100px;
+  background-color:#FFF8F3 ;
+  padding: 130px 100px;
+}
+
+.contact .section-title
+{
+  text-align: left;
+}
+
+.contact a
+{
+  text-decoration: none;
+  padding: 5px;
+}
+.contact input[type="text"],input[type="email"],textarea
+{
+   border: 0;
+   margin-bottom: 24px;
+   width: 100%;
+   padding: 18px 30px;
+}
+input
+{
+  height: 40px;
 }
